@@ -1,4 +1,5 @@
 * {
+  /* background-color: #FFFF00; */
   padding: 0;
   box-sizing: border-box;
   margin: 0;
@@ -14,6 +15,8 @@ code {
     monospace;
 }
 .App{
+  /* background-color: #000000 ; */
+  opacity: 1.8;
   max-width: 1230px;
   min-height: 100vh;
   margin: 0 auto;

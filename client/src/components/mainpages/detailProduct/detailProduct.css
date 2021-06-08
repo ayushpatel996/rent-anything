@@ -36,11 +36,15 @@
     opacity: 0.8;
 }
 .box-detail .cart{
-    background: #333;
+    background-image: linear-gradient(to bottom , rgb(85, 82, 82), rgb(0, 0, 0));
     color: white;
     margin-top: 10px;
     padding: 10px 25px;
     display: inline-block;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+.box-detail .cart:hover{
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0) , rgb(85, 82, 82));
 }

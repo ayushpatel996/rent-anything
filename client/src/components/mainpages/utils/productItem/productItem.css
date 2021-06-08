@@ -44,21 +44,34 @@
     width: 50%;
     text-align: center;
     text-transform: uppercase;
-    color: white;
+    color: rgb(255, 254, 254);
     font-weight: 600;
     letter-spacing: 2px;
     padding: 6px;
 }
-#btn_buy{
-    background: #555;
+#btn_buy:hover{
+    /* background: rgb(0, 0, 0); */
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0) , rgb(85, 82, 82));
     margin-right: 5px;
 }
-#btn_view{
-    background: teal;
+#btn_view:hover{
+    /* background: rgb(238, 255, 5); */
+    background-image: linear-gradient(to bottom, rgb(248, 204, 8) , yellow);
     margin-left: 5px;
 }
 .product_card input{
     position: absolute;
     width: 25px;
     height: 25px;
+}
+
+#btn_buy{
+    /* background: rgb(0, 0, 0); */
+    background-image: linear-gradient(to bottom , rgb(85, 82, 82), rgb(0, 0, 0));
+    margin-right: 5px;
+}
+#btn_view{
+    /* background: rgb(238, 255, 5); */
+    background-image: linear-gradient(to bottom , yellow, rgb(248, 204, 8));
+    margin-left: 5px;
 }
